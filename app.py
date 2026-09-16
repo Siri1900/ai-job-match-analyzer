@@ -31,9 +31,3 @@ def find_skills(text):
             found_skills.append(skill)
 
     return found_skills
-test_text = """
-We are looking for a Python developer with experience in
-SQL, AWS, Docker, Kubernetes and FastAPI.
-"""
-
-print(find_skills(test_text))
